@@ -9,7 +9,7 @@ namespace Menu
             double Salario = entrada1;
             double salariosm ;
         
-            salariosm = salariominimo/Salario;
+            salariosm = Salario/salariominimo;
 
             Console.WriteLine("seu salario em salarios minimos e de {0}",salariosm);
         

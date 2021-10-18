@@ -10,7 +10,7 @@ namespace Menu
             double Entrada1;
             double Entrada2;
             double Entrada3;
-
+            
             bool validate = true;
             
             Program program = new Program();
@@ -77,8 +77,10 @@ namespace Menu
 
                          break;
                     case 5:
-                        Console.WriteLine("Bem vindo ao Banco de animais :D");
-                        
+                
+                        BancoAnimais Animais = new BancoAnimais();
+                        Animais.Main();
+
                         break;
                     case 6:
                         validate = false;
