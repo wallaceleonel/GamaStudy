@@ -1,3 +1,4 @@
+/*
 namespace  BancoAnimais
     public class gato
     {
@@ -8,3 +9,4 @@ namespace  BancoAnimais
         }
     }
 }
+*/

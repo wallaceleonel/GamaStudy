@@ -1,3 +1,4 @@
+/*
 namespace BancoAnimais
 {
   public class Cachorro 
@@ -11,3 +12,5 @@ namespace BancoAnimais
 
     }
 }
+
+*/

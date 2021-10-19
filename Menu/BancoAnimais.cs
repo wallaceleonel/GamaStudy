@@ -21,10 +21,7 @@ namespace Menu
                             Console.WriteLine("Digite o tipo do seu animal de estimação:");
                             tipo = Console.ReadLine().Trim().ToLower();
 
-                            Cachorro = doguinho new Cachorro();
-                            
-
-                            Console.WriteLine("\nO nome do seu {1} é: {0}.", Animal.getNome(), Animal.getTipo());
+                            Console.WriteLine("\nO nome do seu {0} é: {0}.", tipo,nome);
 
                             if (tipo == "cachorro")
                             {
