@@ -4,7 +4,8 @@ namespace Menu
 {
 
     class CalculoImc{
-    public void Main(double entrada1,double entrada2){
+    public void Main(double entrada1,double entrada2)
+    {
 
         double imc;
         double peso = entrada1; //entrada1;
