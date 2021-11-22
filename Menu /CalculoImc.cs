@@ -12,7 +12,7 @@ namespace Menu
         double altura = entrada2; //entrada2;
 
 
-       imc = (peso/(altura*altura)); 
+        imc = (peso/(altura*altura)); 
 
        if(imc < 20){
            Console.WriteLine("Voce esta abaixo do peso ");
